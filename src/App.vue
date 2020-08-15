@@ -1,12 +1,17 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <Game />
+  </div>
 </template>
 
 <script>
+import Game from '@/components/Game/Game'
 
 export default {
   name: 'App',
-  components: {}
+  components: {
+    Game
+  }
 }
 </script>
 
